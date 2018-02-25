@@ -1,0 +1,12 @@
+.section-1 {
+  padding: 50px 0;
+}
+.testimonials {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 50px 0;
+}
+.testimonial-two {
+  border-left: 1px solid #ccc;
+  height: 100%;
+}

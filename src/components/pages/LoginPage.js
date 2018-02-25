@@ -1,5 +1,7 @@
 import React from 'react'
 import LoginForm from '../../forms/LoginForm'
+import Menu from '../../components/menu/Menu'
+import Footer from '../../components/footer/Footer'
 
 class LoginPage extends React.Component {
 	submit = data => {
@@ -9,7 +11,11 @@ class LoginPage extends React.Component {
 	render() {
 		return (
 			<div>
-				<LoginForm submit={this.submit} />
+				<Menu />
+				<div className="ui container">
+					<LoginForm submit={this.submit} />
+				</div>
+				<Footer />
 			</div>
 		)
 	}
